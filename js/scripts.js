@@ -1,5 +1,5 @@
-// Business for Task List
-function TaskList() {
+// Business for To Do List
+function ToDoList() {
   this.tasks = {};
 }
 
