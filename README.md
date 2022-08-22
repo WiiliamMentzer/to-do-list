@@ -12,4 +12,10 @@ Describe: ToDoList ();
 Test: It should input the values of "Task" to "tasks"
 Code: let toDoList = new ToDoList();
   toDoList;
-Expected Output: ToDoList{tasks};
+Expected Output: ToDoList{task};
+
+Test: It should assign task{} to a value.
+Code: ToDoList(); 
+  ToDoList.assignTask(task1); 
+  toDoList.tasks["Cleaning"]; 
+Expected Output: Task {'Cleaning'}
